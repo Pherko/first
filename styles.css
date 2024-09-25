@@ -8,6 +8,10 @@ h1 {
   font-size: 36px;
 }
 
+h1:hover {
+  color: #FFFFFF; /* White text on hover */
+}
+
 p {
   font-size: 18px;
   margin-bottom: 20px;
