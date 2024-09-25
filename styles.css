@@ -1,10 +1,10 @@
 body {
-  background-color: #000000; /* Black background */
+  background-color: #C6F7D0; /* Light green background */
   font-family: Arial, sans-serif;
 }
 
 h1 {
-  color: #FF0000; /* Red text */
+  color: #FFFFFF; /* White text */
   font-size: 36px;
 }
 
@@ -15,5 +15,5 @@ h1:hover {
 p {
   font-size: 18px;
   margin-bottom: 20px;
-  color: #FF0000; /* Red text */
+  color: #000000; /* Black text */
 }
