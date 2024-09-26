@@ -28,3 +28,14 @@ p {
 button:hover {
   background-color: #3e8e41; /* Darker green on hover */
 }
+
+#header-text {
+  font-family: 'Great Vibes', cursive;
+  font-size: 48px;
+  color: #FFFFFF;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
