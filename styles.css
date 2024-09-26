@@ -24,10 +24,8 @@ header {
 
 nav {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  top: 20px;
+  left: 20px;
 }
 
 .menu-btn {
@@ -49,8 +47,7 @@ nav {
   padding: 0;
   position: absolute;
   top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
   background-color: #F7F7F7;
   padding: 20px;
   border: 1px solid #CCCCCC;
@@ -73,8 +70,10 @@ nav {
 
 .button-container {
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 main {
