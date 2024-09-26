@@ -25,15 +25,16 @@ header {
 nav {
   position: absolute;
   top: 20px;
-  right: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .menu-btn {
   background-color: #4CAF50; /* Green background */
   color: #FFFFFF; /* White text */
   border: none;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 20px 40px;
+  font-size: 24px;
   cursor: pointer; /* Change cursor to a pointing hand */
 }
 
@@ -47,7 +48,8 @@ nav {
   padding: 0;
   position: absolute;
   top: 100%;
-  right: 0;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: #F7F7F7;
   padding: 20px;
   border: 1px solid #CCCCCC;
@@ -82,13 +84,3 @@ main {
 }
 
 p {
-  font-size: 18px;
-  margin-bottom: 20px;
-  color: #000000; /* Black text */
-}
-
-.btn {
-  background-color: #4CAF50; /* Green background */
-  color: #FFFFFF; /* White text */
-  border: none;
-  padding:
