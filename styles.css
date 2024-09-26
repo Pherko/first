@@ -91,18 +91,4 @@ p {
   background-color: #4CAF50; /* Green background */
   color: #FFFFFF; /* White text */
   border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer; /* Change cursor to a pointing hand */
-}
-
-.btn:hover {
-  background-color: #3e8e41; /* Darker green on hover */
-}
-
-.btn-blue {
-  background-color: #2196F3; /* Blue background */
-}
-
-.btn-red {
-  background-color: #FF3737; /* Red background
+  padding:
