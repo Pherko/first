@@ -1,6 +1,8 @@
 body {
   background-color: #C6F7D0; /* Light green background */
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -8,27 +10,58 @@ header {
   color: #FFFFFF;
   padding: 20px;
   text-align: center;
+  position: relative;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+nav {
   display: flex;
   justify-content: space-between;
 }
 
-nav li {
-  margin-right: 20px;
+.menu-btn {
+  background-color: #4CAF50; /* Green background */
+  color: #FFFFFF; /* White text */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer; /* Change cursor to a pointing hand */
 }
 
-nav a {
-  color: #FFFFFF;
+.menu-btn:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+#menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #F7F7F7;
+  padding: 20px;
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#menu li {
+  margin-bottom: 10px;
+}
+
+#menu a {
   text-decoration: none;
+  color: #337AB7;
 }
 
-nav a:hover {
-  color: #CCCCCC;
+#menu a:hover {
+  color: #23527C;
+}
+
+.button-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 main {
@@ -80,41 +113,5 @@ p {
   background-color: #FF3737; /* Red background */
 }
 
-.menu {
-  background-color: #F7F7F7;
-  padding: 20px;
-  border: 1px solid #CCCCCC;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.menu h2 {
-  margin-top: 0;
-}
-
-.menu ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-  margin-bottom: 10px;
-}
-
-.menu a {
-  text-decoration: none;
-  color: #337AB7;
-}
-
-.menu a:hover {
-  color: #23527C;
-}
-
 footer {
-  background-color: #333;
-  color: #FFFFFF;
-  padding: 10px;
-  text-align: center;
-  clear: both;
-}
+  background-color: #333
