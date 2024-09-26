@@ -3,6 +3,41 @@ body {
   font-family: Arial, sans-serif;
 }
 
+header {
+  background-color: #333;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #CCCCCC;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
 h1 {
   font-family: 'Great Vibes', cursive;
   font-size: 48px;
@@ -24,7 +59,7 @@ p {
   color: #000000; /* Black text */
 }
 
-button {
+.btn {
   background-color: #4CAF50; /* Green background */
   color: #FFFFFF; /* White text */
   border: none;
@@ -33,6 +68,53 @@ button {
   cursor: pointer; /* Change cursor to a pointing hand */
 }
 
-button:hover {
+.btn:hover {
   background-color: #3e8e41; /* Darker green on hover */
+}
+
+.btn-blue {
+  background-color: #2196F3; /* Blue background */
+}
+
+.btn-red {
+  background-color: #FF3737; /* Red background */
+}
+
+.menu {
+  background-color: #F7F7F7;
+  padding: 20px;
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu h2 {
+  margin-top: 0;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-bottom: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #337AB7;
+}
+
+.menu a:hover {
+  color: #23527C;
+}
+
+footer {
+  background-color: #333;
+  color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+  clear: both;
 }
