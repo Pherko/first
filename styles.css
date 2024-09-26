@@ -16,4 +16,15 @@ p {
   font-size: 18px;
   margin-bottom: 20px;
   color: #000000; /* Black text */
+  button {
+  background-color: #4CAF50; /* Green background */
+  color: #FFFFFF; /* White text */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer; /* Change cursor to a pointing hand */
+}
+
+button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
 }
