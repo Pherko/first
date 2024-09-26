@@ -7,34 +7,38 @@
 <body>
   <header>
     <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <h1 id="header-text">Ferko's Website</h1>
-    <p>Hell yeah i have made a website.</p>
-    <button class="btn btn-green" onclick="goToYouTube()">Click me!</button>
-    <button class="btn btn-blue" onclick="alert('Hello World!')">Alert!</button>
-    <button class="btn btn-red" onclick="console.log('Button clicked!')">Log to console</button>
-    <div class="menu">
-      <h2>Menu</h2>
-      <ul>
+      <button class="menu-btn" onclick="toggleMenu()">Menu</button>
+      <ul id="menu" style="display: none;">
         <li><a href="#">Item 1</a></li>
         <li><a href="#">Item 2</a></li>
         <li><a href="#">Item 3</a></li>
       </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="button-container">
+      <button class="btn btn-green" onclick="goToYouTube()">Click me!</button>
+      <button class="btn btn-blue" onclick="alert('Hello World!')">Alert!</button>
+      <button class="btn btn-red" onclick="console.log('Button clicked!')">Log to console</button>
     </div>
+    <h1 id="header-text">Ferko's Website</h1>
+    <p>Hell yeah i have made a website.</p>
   </main>
-  <footer>
+  <footer style="position: absolute; bottom: 0; width: 100%;">
     <p>&copy; 2023 Ferko's Website</p>
   </footer>
   <script>
     function goToYouTube() {
       window.location.href = "https://www.youtube.com";
+    }
+
+    function toggleMenu() {
+      var menu = document.getElementById("menu");
+      if (menu.style.display === "none") {
+        menu.style.display = "block";
+      } else {
+        menu.style.display = "none";
+      }
     }
   </script>
 </body>
