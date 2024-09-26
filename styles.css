@@ -84,3 +84,48 @@ main {
 }
 
 p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #000000; /* Black text */
+}
+
+.btn {
+  border: none;
+  padding: 20px 40px;
+  font-size: 24px;
+  cursor: pointer; /* Change cursor to a pointing hand */
+}
+
+.btn-red {
+  background-color: #FF3737; /* Red background */
+}
+
+.btn-red:hover {
+  background-color: #FF6B6B; /* Lighter red on hover */
+}
+
+.btn-blue {
+  background-color: #2196F3; /* Blue background */
+}
+
+.btn-blue:hover {
+  background-color: #64B5F6; /* Lighter blue on hover */
+}
+
+.btn-orange {
+  background-color: #FFA07A; /* Orange background */
+}
+
+.btn-orange:hover {
+  background-color: #FFC499; /* Lighter orange on hover */
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #333;
+  color: #FFFFFF;
+  padding: 10px;
+}
