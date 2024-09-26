@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  overflow-x: hidden; /* Add this to prevent horizontal scrolling */
 }
 
 header {
@@ -93,8 +94,8 @@ nav {
 }
 
 .products img {
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 200px;
   border-radius: 10px;
   margin-bottom: 10px;
 }
@@ -118,4 +119,14 @@ nav {
 
 .button-container button {
   margin: 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #333;
+  color: #FFFFFF;
+  padding: 10px;
 }
