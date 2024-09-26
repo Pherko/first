@@ -24,8 +24,11 @@ header {
 
 nav {
   position: absolute;
-  top: 20px;
+  top: 60px;
   left: 20px;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .menu-btn {
@@ -57,6 +60,9 @@ nav {
 
 #menu li {
   margin-bottom: 10px;
+  background-color: #F2F2F2;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 #menu a {
@@ -83,7 +89,7 @@ main {
   padding: 20px;
 }
 
-p {
+ p {
   font-size: 18px;
   margin-bottom: 20px;
   color: #000000; /* Black text */
