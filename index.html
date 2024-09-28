@@ -22,8 +22,6 @@
   </style>
 </head>
 <body>
-  <!-- The loading screen will be displayed here -->
-  <div id="loader">Loading...</div>
   <header>
     <nav>
       <button class="menu-btn" onclick="toggleMenu()">Menu</button>
@@ -39,7 +37,7 @@
     <section class="hero">
       <h1>Welcome to Ferko's Website!</h1>
       <p>Welcome to my website where i show you random Audis!</p>
-      <button class="btn btn-red" onclick="window.location.href='blank-page.html'">Learn More</button>
+      <button class="btn btn-red" onclick="showLoader()">Learn More</button>
     </section>
     <section class="products">
       <h2>Our Products</h2>
@@ -82,9 +80,9 @@
       </ul>
     </section>
     <div class="button-container">
-      <button class="btn btn-red" onclick="go ToYouTube()">Click me!</button>
+      <button class="btn btn-red" onclick="goToYouTube()">Click me!</button>
       <button class="btn btn-blue" onclick="alert('Hello World!')">Alert!</button>
-      <button class="btn btn-orange" onclick="console.log('Button clicked!')">Log to console</button>
+      <button class=" btn btn-orange" onclick="console.log('Button clicked!')">Log to console</button>
     </div>
   </main>
   <footer style="position: fixed; bottom: 0; width: 100%; text-align: center; background-color: #333; color: #FFFFFF; padding: 10px;">
@@ -102,10 +100,12 @@
     function goToYouTube() {
       window.location.href = "https://www.youtube.com";
     }
-    // Hide the loading screen after 2 seconds
-    setTimeout(function() {
-      document.getElementById("loader").style.display = "none";
-    }, 2000);
+    function showLoader() {
+      document.getElementById("loader").style.display = "block";
+      setTimeout(function() {
+        document.getElementById("loader").style.display = "none";
+      }, 2000);
+    }
   </script>
 </body>
 </html>
